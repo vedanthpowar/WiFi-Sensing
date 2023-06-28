@@ -1,0 +1,58 @@
+Sleep Solution
+GOAL: Finding Sleep tracker’s trigger point.
+
+
+MonoPHY: Mono-stream-based device-free WLAN localization 
+Spot-Fi 
+Multipath Triangulation
+
+Requires :
+Wi-Fi Chip on Target to be localized
+Fingerprinting with specific Tx/Rx Arrangement
+
+
+Whole-Home Gesture Recognition - https://ieeexplore.ieee.org/document/9386235
+Requires :
+High Packet Rate up to 1000 Pk/sec
+Doppler Shifts are of few Hz
+
+
+Wi-Sleep: Sleep Monitoring
+
+
+DensePose from Wi-Fi
+Accuracy: 87.2%
+Rate: 100 pk/sec
+Localization Error:0.5m
+Subcarrier: 30
+Environment Specific
+
+
+DeFi: Robust Training-Free Device-Free Wireless Localization With WiFi
+
+
+Widar 2.0: Passive Human Tracking with a Single Wi-Fi Link
+TOF + AOA + DFS
+DFS Uniqueness requires minimum 200Hz Sampling Rate.
+Our Sampling Rate is 33Hz, so maximum trackable speed is 
+   0.99 m/s.
+
+
+A Localization and Tracking System Using Single WiFi Link - https://www.mdpi.com/2072-4292/15/9/2461
+Device-free near-field human sensing using WiFi signals - https://link.springer.com/article/10.1007/s00779-020-01385-4
+
+
+Limitations:
+High Packet Rate
+Environment Dependent
+Moving-Rx-Target
+
+
+Limitations:
+Packet Rate > 200Hz (For DFS)
+No AoA => “d” not known
+
+Limitations:
+High Packet Rate
+Environment Dependent
+Moving-Rx-Target
